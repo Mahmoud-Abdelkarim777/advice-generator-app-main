@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- google font link -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <!-- external file css -->
+  <link rel="stylesheet" href="./src/output.css">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="font-manrope bg-neutral-darkBlue flex flex-col items-center justify-center h-2/2">
+  <div class="flex items-center justify-center mx-auto px-8 h-17 w-96 bg-neutral-darkGrayishBlue rounded-xl mb-12 relative">
+    <div class="text-center flex flex-col items-center ">
+      <h5 class="text-primary-neon uppercase my-6 text-xs tracking-wide">Advice # <span id="id-slip">123</span></h5>
+      <p class="mb-6 text-primary-cyan 	"><span class="text-xl">"</span><span class="text-custom" id="advice">It is easy to sit up and take notice, whayt's difficult is getting up and taking action.</span><span class="text-xl">"</span></p>
+      <div class="mb-6">
+        <img src="./images/pattern-divider-desktop.svg" alt="">
+      </div>
+      <div id="img" class="absolute top-custom flex items-center justify-center w-14 h-14 rounded-full bg-primary-neon  hover:shadow-neon-green  transition-shadow duration-300 cursor-pointer	">
+        <img src="./images/icon-dice.svg" class="w-5" alt="">
+      </div>
+    </div>
+  </div>
+  
+<!-- <div class="bg-neutral-grayishBlue mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+<div class="bg-neutral-darkBlue">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+<div class="bg-neutral-darkGrayishBlue">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div> -->
+
+
+  
+  
+  <div class="attribution text-primary-cyan">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/mahmoud-abdelkarim-%F0%9F%87%B5%F0%9F%87%B8-487452229/">MAHMOUD.JS</a>.
+  </div>
+  <!-- sweet alert cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- axios cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- external file js -->
+  <script src="main.js"></script>
+</body>
+</html>
