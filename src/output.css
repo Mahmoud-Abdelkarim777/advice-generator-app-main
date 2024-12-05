@@ -51,7 +51,8 @@
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 70%, 70%); }
 ::backdrop {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -715,10 +716,6 @@ video {
 @media (min-width: 768px) {
   .md\:w-96 {
     width: 24rem;
-  }
-
-  .md\:w-\[\] {
-    width: ;
   }
 
   .md\:w-\[25\] {
