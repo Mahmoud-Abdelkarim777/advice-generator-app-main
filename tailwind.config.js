@@ -25,7 +25,7 @@ module.exports = {
         'custom': '14.7rem', 
       },
       fontSize: {
-        'custom': '19px', // حجم الخط المخصص
+        'custom': '20px', // حجم الخط المخصص
       },
       boxShadow: {
         'neon-green': '0px 0px 25px 5px hsl(150deg 100% 62.08%)',

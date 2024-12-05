@@ -576,16 +576,8 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .mt-12 {
@@ -616,8 +608,8 @@ video {
   width: 1.25rem;
 }
 
-.w-96 {
-  width: 24rem;
+.w-80 {
+  width: 20rem;
 }
 
 .cursor-pointer {
@@ -654,11 +646,6 @@ video {
   background-color: hsl(217 19% 24% / var(--tw-bg-opacity, 1));
 }
 
-.bg-neutral-grayishBlue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(217 19% 38% / var(--tw-bg-opacity, 1));
-}
-
 .bg-primary-neon {
   --tw-bg-opacity: 1;
   background-color: hsl(150 100% 66% / var(--tw-bg-opacity, 1));
@@ -678,7 +665,7 @@ video {
 }
 
 .text-custom {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .text-xl {
@@ -723,4 +710,22 @@ video {
   --tw-shadow: 0px 0px 25px 5px hsl(150deg 100% 62.08%);
   --tw-shadow-colored: 0px 0px 25px 5px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 768px) {
+  .md\:w-96 {
+    width: 24rem;
+  }
+
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[25\] {
+    width: 25;
+  }
+
+  .md\:w-\[25rem\] {
+    width: 25rem;
+  }
 }
