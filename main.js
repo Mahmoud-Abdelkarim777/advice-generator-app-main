@@ -23,3 +23,7 @@ async function getUser() {
 Img.addEventListener("click", getUser);
 
 
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('font').disabled = false;
+});
